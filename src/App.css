@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.flashcard-container {
+  perspective: 1000px;
+}
+
+.flashcard {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.flashcard.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard .front,
+.flashcard .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #3243db;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flashcard .back {
+  transform: rotateY(180deg);
+}
+
+.flashcard {
+  width: 600px;
+  height: 400px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #253091;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
