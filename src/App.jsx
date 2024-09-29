@@ -13,8 +13,8 @@ function App() {
     { id: 6, question: 'Solve for x: 3x - 7 = 8', answer: '5'},
     { id: 7, question: 'What is the slope of the line y = 3x + 2?', answer: '3'},
     { id: 8, question: 'What is the y-intercept of the line y = 6x + 5?', answer: '5'},
-    { id: 9, question: 'Simplify the expression: 3(x + 4) - 2(x - 3)', answer: '5x + 18'},
-    { id: 10, question: 'Solve for x: 4(x + 3) = 28', answer: '5'}
+    { id: 9, question: 'Simplify the expression: 3(x + 4) - 2(x - 3)', answer: 'x + 18'},
+    { id: 10, question: 'Solve for x: 4(x + 3) = 28', answer: '4'}
   ]);
 
   const countFlashcards = () => {
