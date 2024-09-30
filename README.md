@@ -42,7 +42,7 @@ GIF created with ...
 
 ## Notes
 
-A challenge of this app was getting the cards to flip
+A challenge of this app was getting the cards to flip. Another challenge was getting the colors to specify difficulty on each question
 
 ## License
 
